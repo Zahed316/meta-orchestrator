@@ -1,0 +1,6 @@
+name: auth-flow
+description: Complete authentication system design workflow
+layers:
+  - [research]
+  - [architect, security-reviewer]
+  - [doc-updater]

@@ -1,0 +1,25 @@
+# Full development lifecycle
+name: full-lifecycle
+description: research → architect → tdd → review → doc-updater (5 layers)
+layers:
+  - name: Discovery
+    # Understand requirements and existing patterns
+    plugins:
+      - mattpocock-skills:research
+  - name: Design
+    # Build architecture plans and C4 models
+    plugins:
+      - claude-forge:architect
+  - name: Implementation
+    # Write code via Red-Green-Refactor
+    plugins:
+      - claude-forge:tdd
+  - name: QA
+    # Run security and general code reviews in parallel
+    plugins:
+      - claude-forge:code-reviewer
+      - claude-forge:security-reviewer
+  - name: Documentation
+    # Update documentation post-implementation
+    plugins:
+      - claude-forge:doc-updater

@@ -1,0 +1,16 @@
+# Research, architect, and validate a concept
+name: research-validate
+description: research + architect + adversarial-spec
+layers:
+  - name: Phase 1
+    # Gather background info
+    plugins:
+      - mattpocock-skills:research
+  - name: Phase 2
+    # Design architecture based on research
+    plugins:
+      - claude-forge:architect
+  - name: Phase 3
+    # Validate the architecture
+    plugins:
+      - adversarial-spec:adversarial-spec

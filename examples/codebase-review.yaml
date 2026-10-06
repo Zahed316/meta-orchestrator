@@ -1,0 +1,6 @@
+name: codebase-review
+description: Comprehensive codebase quality and security audit
+layers:
+  - [cartographer]
+  - [code-reviewer, security-reviewer]
+  - [doc-updater]

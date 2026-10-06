@@ -1,0 +1,12 @@
+# Security audit sequential chain
+name: security-audit
+description: security-reviewer + code-reviewer (sequential)
+layers:
+  - name: Initial Security Review
+    # Focus on OWASP top 10 and vulnerabilities
+    plugins:
+      - claude-forge:security-reviewer
+  - name: General Code Quality Review
+    # General code quality after security passes
+    plugins:
+      - claude-forge:code-reviewer

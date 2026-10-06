@@ -1,0 +1,35 @@
+{
+  "name": "meta-orchestrator",
+  "version": "1.0.0-beta.1",
+  "description": "Claude Code skill for parallel execution of specialized plugin workflows with MCP integration",
+  "main": "orchestrator.js",
+  "scripts": {
+    "test": "for f in test-*.js; do node \"$f\" || exit 1; done"
+  },
+  "keywords": [
+    "claude-code",
+    "orchestrator",
+    "mcp",
+    "workflow",
+    "parallel-execution",
+    "plugin-system"
+  ],
+  "author": "Zahed Rastgar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zahedrastgar/meta-orchestrator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zahedrastgar/meta-orchestrator/issues"
+  },
+  "homepage": "https://github.com/zahedrastgar/meta-orchestrator#readme",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.7"
+  }
+}

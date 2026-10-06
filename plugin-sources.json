@@ -1,0 +1,22 @@
+{
+  "mattpocock-skills": {
+    "repo": "https://github.com/mattpocock/claude-skills.git",
+    "branch": "main",
+    "path": "../mattpocock-skills"
+  },
+  "claude-forge": {
+    "repo": "https://github.com/anthropics/claude-forge.git",
+    "branch": "main",
+    "path": "../claude-forge"
+  },
+  "cartographer": {
+    "repo": "https://github.com/anthropics/cartographer.git",
+    "branch": "main",
+    "path": "../cartographer"
+  },
+  "adversarial-spec": {
+    "repo": "https://github.com/anthropics/adversarial-spec.git",
+    "branch": "main",
+    "path": "../adversarial-spec"
+  }
+}
